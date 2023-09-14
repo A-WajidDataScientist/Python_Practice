@@ -28,11 +28,11 @@
 # ii
 # city_1 = input("Enter the city name:")
 # city_2 = input("Enter the city name:")
-# if city_1 in india or city_2 in india:
+# if city_1 in india and city_2 in india:
 #     print("country name : India")
-# elif city_1 in pakistan or city_2 in pakistan:
+# elif city_1 in pakistan and city_2 in pakistan:
 #     print("country name : Pakistan")
-# elif city_1 in bangladesh or city_2 in bangladesh:
+# elif city_1 in bangladesh and city_2 in bangladesh:
 #     print("country name : Bangladesh")
 # else:
 #     print("Not in record")
