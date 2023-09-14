@@ -102,16 +102,23 @@ print("After correction:", monthly_expenses)
 #    Do that with one line of code.
 # 5. Sort the heros list in alphabetical order (Hint. Use dir() functions to list down all functions available in list)
 heros = ['spider man', 'thor', 'hulk', 'iron man', 'captain america']
+# 1:
 print("List length: ", len(heros))
+
+# 2:
 heros.append("black panther")
 print(heros)
+
+# 3:
 heros.remove("black panther")
 print(heros)
 heros.insert(3, "black panther")
 print(heros)
-heros.remove("hulk")
+
+# 4:
+heros[1:3] = ["doctor strange"]
 print(heros)
-heros[1] = "doctor strange"
-print(heros)
+
+# 5
 # heros.sort()
 print(sorted(heros))
